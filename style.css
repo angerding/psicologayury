@@ -1,0 +1,110 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo del hero section */
+#hero {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section p {
+    text-align: center;
+}
+
+/* Estilo del footer */
+footer {
+    background: #cca28a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.row {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.card-text{
+    text-align: left;
+}
+
+li {
+    text-align: center;
+}
+
+.card1{
+    text-align:start ;
+    
+}
+
+.card-body li{
+    text-align: left;
+}
+
+.card1 img {
+    width: auto;
+}
